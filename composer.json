@@ -1,0 +1,28 @@
+{
+    "name": "tutor2u/oauth2-citrix",
+    "description": "Citrix OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamie Pittock",
+            "email": "jamie@tutor2u.net",
+            "homepage": "https://github.com/tutor2u"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "citrix"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tutor2u\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
